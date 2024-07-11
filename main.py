@@ -5,7 +5,7 @@ import speech_recognition as sr
 import google.generativeai as genai
 
 # Set up Google Generative AI API
-GOOGLE_API_KEY = 'AIzaSyBRU9nVxg396XwQ5aZgcpBLHANaeuDagng'
+GOOGLE_API_KEY = 'paste here'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 generation_config = {
